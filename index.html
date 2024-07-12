@@ -1,1 +1,521 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>mo7a medgom3a</title>
+    <link rel="stylesheet" href="/./css/style.css"/>
+    <link rel="stylesheet" href="/./css/mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Mohamed Gomaa</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#GOOD">GOOD</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Mohamed Gomaa</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#GOOD" onclick="toggleMenu()">GOOD</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="/assets/photo.png" alt="Mohamed Gomaa profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Mohamed Gomaa</h1>
+        <p class="section__text__p2">software engineer </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('/assets/MohamedGomaa-CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="/assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/mohamed-gomaa-626a18249'"
+          />
+          <img
+            src="/assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/mo7amedgom3a'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHBreGpwN2QzZHNnMThvdWZqNG9nYTl1dmZjOGM0bXF5NWEzZXpsaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aEwLTJvYxwo1L09oyP/giphy.gif"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="/assets/experience.png"
+                alt="GOOD icon"
+                class="icon"
+              />
+              <h3>Experiences</h3>
+              <p>1+ years <br />FullStack Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="/assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.C.S. Bachelors Degree<br />Assiut university</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              As a software engineer, I specialize in utilizing a diverse set of tools and languages to bring projects to life. In the realm of back-end development, I'm proficient in .NET, harnessing its power to build robust and efficient server-side applications. On the flip side, I dive into the world of Node.js, leveraging its asynchronous nature to create scalable, event-driven applications.
+
+When it comes to the front-end, I'm well-versed in HTML, CSS, and JavaScript, turning designs into interactive and visually stunning GOODs. Additionally, I have a knack for React, utilizing its component-based architecture to build dynamic and responsive user interfaces that keep users engaged.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#GOOD'"
+      />
+    </section>
+    <section id="GOOD">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experiences</h1>
+      <div class="GOOD-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="GOOD-sub-title">FullStack Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C#</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node.js</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>.NET</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Apache</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>nginx</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Flask</h3>
+                  
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="GOOD-sub-title">Low Level Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Data Structures</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Algorithms</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>OOP</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Database</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>OS</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Network</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="GOOD icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Linux</h3>
+                  
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="GOOD-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGE1M2hkZzBtZHJ1NG94ejdnMWxuMjI5NHJud3l6M3k5cG40MThqMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/h0Cq1ClzO3UpupFPjP/giphy.gif"
+                alt="Simple Shell"
+                class="project-img"
+              />
+            </div>
+            <h2 class="GOOD-sub-title project-title">Simple Shell</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/mo7amedgom3a/simple_shell.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/mo7amedgom3a/simple_shell.git'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://repository-images.githubusercontent.com/397995905/42f03254-21ee-4cc8-b45c-b6924d849c57"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="GOOD-sub-title project-title">Hospital Management</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/mo7amedgom3a/Hospital_Management_System.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='http://hms-sci.somee.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*xGgaEhVE5dMD-R8krQG4PQ.gif"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="GOOD-sub-title project-title">Data Structure Book</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/mo7amedgom3a/data_structure.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/mo7amedgom3a/data_structure.git'"
+              >
+                Live Demo
+              </button>
+            </div>
+            
+            
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://github.com/mo7amedgom3a/Genetic-Algorithm/blob/main/assets/Madrid_Brussels.gif?raw=true"
+                alt="Project 4"
+                class="project-img"
+              />
+            </div>
+            <h2 class="GOOD-sub-title project-title">Genetic-Algorithm</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/mo7amedgom3a/Genetic-Algorithm.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/mo7amedgom3a/data_structure.git'"
+              >
+                Live Demo
+              </button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <img
+        src="/assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="/assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <div>
+            <a href="mailto:mo7amed.gom3a.7moda@gmail.com">gmail</a>
+          </div>
+        </div>
+        
+        <div class="contact-info-container">
+          <img
+            src="/assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/mohamed-gomaa-626a18249">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#GOOD">experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Mohamed Gomaa. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
